@@ -23,6 +23,30 @@
       "password": "12345678",
       "email": "haha@gmail.com",
       "id": 4
+    },
+    {
+      "name": "Ninja",
+      "password": "123",
+      "email": "ninja@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Ninja",
+      "password": "123",
+      "email": "ninja@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "D Javeed Sharif",
+      "password": "123",
+      "email": "123",
+      "id": 7
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 8
     }
   ]
 }
