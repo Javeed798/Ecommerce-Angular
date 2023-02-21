@@ -15,13 +15,16 @@ export class SellerService {
 
   userSignUp(data:signup){
     return this.http.post("http://localhost:3000/seller",data,
-      //     for auth guard
+      //     for auth guard we need to add that observe option as response and then we can integrate it in our app / :)
       {observe:'response'})
+
+      // and here we can even subscribe it to the data and store it in the local storage
+
       .subscribe((result) => {
         console.log(result)
         localStorage.setItem("seller",JSON.stringify(result.body))
         this.router.navigate(['seller-home'])
-        //for auth guard
+        //for auth guard we r making it to true and hence it will not go even we refresh the page :)
         this.isSellerLoggedIn.next(true)
       })
   }
