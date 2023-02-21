@@ -10,7 +10,8 @@ export class HeaderComponent implements OnInit{
   constructor(private route:Router) {
   }
 
-  menuType: String ="default"
+  menuType: string ="default"
+  sellerName:string=''
 
   ngOnInit(): void {
     this.route.events.subscribe((val:any) => {
@@ -18,11 +19,21 @@ export class HeaderComponent implements OnInit{
         // checking if the url is present and checking if the url is seller url
         if (localStorage.getItem("seller") && val.url.includes("seller") ){
           this.menuType="seller"
+          if (localStorage.getItem('seller')){
+            let sellerStore = localStorage.getItem('seller');
+            let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+            this.sellerName = sellerData.name;
+          }
         } else {
           this.menuType="default"
         }
       }
     })
+  }
+
+  logout(){
+    localStorage.removeItem('seller');
+    this.route.navigate(['/'])
   }
 
 
