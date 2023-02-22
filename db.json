@@ -39,22 +39,22 @@
   ],
   "products": [
     {
-      "name": "I Phone 12",
-      "price": "2000000000",
-      "color": "Pink",
-      "category": "mobile",
-      "description": "best mobile in the world",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tQ_few-NB13xSWf1C0X3544X474BW9S_okAStNPo0w&usqp=CAU&ec=48600112",
-      "id": 1
-    },
-    {
       "name": "samsung s23",
-      "price": "1500000",
-      "color": "Black",
-      "category": "Samsung",
-      "description": "Best in the universe",
+      "price": "2000000000",
+      "color": "black",
+      "category": "mobile",
+      "description": "best in the universe",
       "image": "https://www.movilzona.es/app/uploads-movilzona.es/2022/07/samsung-galaxy-s23-render-1.jpg",
       "id": 2
+    },
+    {
+      "name": "Apple 13 Pro",
+      "price": "2000",
+      "color": "black",
+      "category": "Apple",
+      "description": "bad in marketttt",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tQ_few-NB13xSWf1C0X3544X474BW9S_okAStNPo0w&usqp=CAU&ec=48600112",
+      "id": 3
     }
   ]
 }

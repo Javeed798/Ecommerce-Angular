@@ -37,13 +37,15 @@
   flex: 1;
   color: rebeccapurple;
   border: 2px solid mediumpurple;
-  height: 35px;
+  height: 39px;
   border-right: 0;
+  border-top-left-radius: 10px;
 }
 
 .nav .nav-search button {
   color: purple;
   border: 2px solid mediumpurple;
-  height: 40px;
+  height: 39px;
   border-left: 0;
+  border-top-right-radius: 10px;
 }

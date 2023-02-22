@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ProductService} from "../services/product.service";
 import {product} from "../data-type";
-import { faDeleteLeft } from "@fortawesome/free-solid-svg-icons";
+import { faDeleteLeft, faEdit } from "@fortawesome/free-solid-svg-icons";
 
 @Component({
   selector: 'app-seller-home',
@@ -12,6 +12,7 @@ export class SellerHomeComponent implements OnInit{
   constructor(private product:ProductService) {
   }
   icon=faDeleteLeft
+  edit=faEdit
 
   productList:undefined | product[]
   deleteProductId:undefined|string=''
