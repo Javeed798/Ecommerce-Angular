@@ -20,7 +20,7 @@ export class SellerAddProductComponent {
       console.log(result)
       if (result){
         this.sellerAddProductMessage="product is successfully added";
-        this.router.navigate(['seller-home'])
+        // this.router.navigate(['seller-home'])
       }
       setTimeout(() =>
         (this.sellerAddProductMessage = undefined)

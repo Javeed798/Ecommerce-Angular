@@ -55,6 +55,60 @@
       "description": "bad in marketttt",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5tQ_few-NB13xSWf1C0X3544X474BW9S_okAStNPo0w&usqp=CAU&ec=48600112",
       "id": 3
+    },
+    {
+      "name": "samsung book",
+      "price": "250000",
+      "color": "red",
+      "category": "samsung",
+      "description": "Best laptop in the market",
+      "image": "https://th.bing.com/th/id/OIP.09MjFlNiy61Q-cTn3DC8wAHaFS?pid=ImgDet&rs=1",
+      "id": 4
+    },
+    {
+      "name": "Apple Mac Book",
+      "price": "200000",
+      "color": "Black",
+      "category": "Apple",
+      "description": "Not best as samsung",
+      "image": "https://th.bing.com/th/id/OIP.c3jctz5QOCE_40sXJLJF7gHaE8?w=258&h=180&c=7&r=0&o=5&pid=1.7",
+      "id": 5
+    },
+    {
+      "name": "I Phone 12",
+      "price": "5000",
+      "color": "Blue",
+      "category": "Apple",
+      "description": "Samsung s10 is better than this",
+      "image": "https://th.bing.com/th/id/OIP.NPjHm89X_AEF5kO0rpbLLAHaHa?w=174&h=180&c=7&r=0&o=5&pid=1.7",
+      "id": 6
+    },
+    {
+      "name": "Samsung s10 lite",
+      "price": "50000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "Better than Iphone 14 pro",
+      "image": "https://th.bing.com/th/id/OIP.O01WSURgdE0vahd_7iqVBgHaFj?w=248&h=186&c=7&r=0&o=5&pid=1.7",
+      "id": 7
+    },
+    {
+      "name": "Lenovo Legion 5",
+      "price": "77000",
+      "color": "Black",
+      "category": "laptop",
+      "description": "Better than Macbook",
+      "image": "https://th.bing.com/th/id/OIP.nssUq40j7I0nZhZERfbAZgHaFj?w=243&h=182&c=7&r=0&o=5&pid=1.7",
+      "id": 10
+    },
+    {
+      "name": "Lenovo Legion 7",
+      "price": "97000",
+      "color": "BLue",
+      "category": "laptop",
+      "description": "Better than legion 5",
+      "image": "https://th.bing.com/th/id/OIP.nssUq40j7I0nZhZERfbAZgHaFj?w=243&h=182&c=7&r=0&o=5&pid=1.7",
+      "id": 11
     }
   ]
 }
