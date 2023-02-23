@@ -1,0 +1,17 @@
+<h1 *ngIf="searchResult; then ifBlock else elseBlock"></h1>
+<ng-template #ifBlock>
+  <div *ngFor="let item of searchResult" class="row search-item">
+    <div class="col-sm-3">
+      <img src="{{item.image}}" alt="">
+    </div>
+    <div class="col-sm-8 details">
+      <h5> {{item.name}} </h5>
+      <p><b> $ {{item.price}}</b></p>
+      <p><span>{{item.color}} <span>{{item.category}}</span></span></p>
+      <p>{{item.description}}</p>
+    </div>
+  </div>
+</ng-template>
+<ng-template #elseBlock>
+  <h1>No items Found</h1>
+</ng-template>
